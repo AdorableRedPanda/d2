@@ -1,0 +1,27 @@
+{
+  "name": "bun-react-template",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "biome format --write ./src && biome lint --write ./src && eslint ./src --fix"
+  },
+  "dependencies": {
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.4.14",
+    "@types/bun": "latest",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "eslint": "10.3.0",
+    "eslint-plugin-perfectionist": "5.9.0",
+    "@typescript-eslint/eslint-plugin": "8.59.2",
+    "@typescript-eslint/parser": "8.59.2",
+    "vite": "8.0.10",
+    "@vitejs/plugin-react": "6.0.1"
+  }
+}
