@@ -6,12 +6,12 @@ import { defineConfig } from 'vite';
 const rootDir = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
-    base: '',
+    base: './',
     root: './src',
     build: {
         outDir: '../dist',
     },
-    publicDir: '../src/assets',
+    publicDir: path.resolve(rootDir, 'src/assets'),
     plugins: [react()],
     resolve: {
         alias: {
