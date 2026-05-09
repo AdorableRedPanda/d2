@@ -24,7 +24,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "/@utils": ["./src/utils"]
+      "@utils": ["./src/utils"],
+      "@store": ["./src/store"],
+      "@types": ["./src/types"]
     },
 
     // Some stricter flags (disabled by default)

@@ -16,7 +16,7 @@
 }
 
 .logo {
-	height: 6em;
+	height: 8em;
 	padding: 1.5em;
 	will-change: filter;
 	transition: filter 0.3s;
@@ -26,7 +26,7 @@
 	}
 }
 
-.bun_logo {
+.bun {
 	transform: scale(1.2);
 
 	&:hover {
@@ -34,7 +34,7 @@
 	}
 }
 
-.react_logo {
+.react {
 	animation: spin 20s linear infinite;
 
 	&:hover {

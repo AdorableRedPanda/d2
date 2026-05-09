@@ -56,12 +56,3 @@ code {
 		background-position: 256px 224px;
 	}
 }
-
-@media (prefers-reduced-motion) {
-	*,
-	::before,
-	::after {
-		/* biome-ignore lint/complexity/noImportantStyles: special media query override */
-		animation: none !important;
-	}
-}
